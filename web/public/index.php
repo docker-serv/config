@@ -1,15 +1,10 @@
-<?php
-
-include '../app/vendor/autoload.php';
-$foo = new App\Acme\Foo();
-
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Docker <?php echo $foo->getName(); ?></title>
+        <title>Docker is working</title>
     </head>
     <body>
-        <h1>Docker <?php echo $foo->getName(); ?></h1>
+        <h1>Docker is working!</h1>
     </body>
 </html>
